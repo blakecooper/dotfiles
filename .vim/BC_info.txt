@@ -1,0 +1,5 @@
+### NOTES ON .VIM FOLDER ###
+
+1) Contains airline, airline-themes and vice colorscheme
+2) .git is initialized to airline (since it's the one that will most likely need updating)
+3) contrib folder is from vice
