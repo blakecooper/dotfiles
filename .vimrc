@@ -39,12 +39,13 @@ set background=dark    " Setting dark mode
 " line numbers
 set number
 
-" replace tabs with four spaces
-set tabstop=4
-
 " highlight syntax
 syntax on
 
+" replace tabs with four spaces
+set tabstop=4 shiftwidth=4 expandtab
+
 " autoindent
+set ai
 set si
-imap <C-Return> <CR><CR><C-o>k<Tab>
+inoremap { {<CR>}<Esc>O
